@@ -226,6 +226,11 @@ public class MainActivity extends BaseActivity {
 
         findViewById(R.id.new_profile).setOnClickListener(v -> startActivityForResult(new Intent(MainActivity.this, EditProfileActivity.class), REQUEST_CODE_NEW_PROFILE));
 
+        findViewById(R.id.event_activity).setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, EventActivity.class))
+        );
+
+
 
         RingerModeSwitch ringerModeSwitch = findViewById(R.id.ringerMode);
         ringerModeSwitch.setRingMode(control.getRingerMode());

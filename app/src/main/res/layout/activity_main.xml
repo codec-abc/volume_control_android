@@ -121,6 +121,15 @@
                 android:text="@string/settings_android_sound_settings" />
 
             <Button
+                android:id="@+id/event_activity"
+                style="@style/Settings_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-8dp"
+                android:layout_marginLeft="-8dp"
+                android:text="Manage events" />
+
+            <Button
                 android:id="@+id/rate_app"
                 style="@style/Settings_button"
                 android:layout_width="wrap_content"

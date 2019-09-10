@@ -39,13 +39,13 @@
     <string name="dnd_permission_message">This permission is required to be able to change volume and select sound profiles in Do Not Disturb mode</string>
     <string name="volume_types_in_widget">Volume types in widget</string>
 
+    <string name="acra_dialog_title">Send crash report</string>
+
+    <string name="acra_dialog_message">Sorry, the application crashed. Send crash report to the developer by email?</string>
     <string-array name="vibrate_settings">
         <item>Always on</item>
         <item>Always off</item>
         <item>Only in silent mode</item>
     </string-array>
-
-    <string name="acra_dialog_title">Send crash report</string>
-    <string name="acra_dialog_message">Sorry, the application crashed. Send crash report to the developer by email?</string>
 
 </resources>
