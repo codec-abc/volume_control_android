@@ -42,6 +42,9 @@
     <string name="acra_dialog_title">Send crash report</string>
 
     <string name="acra_dialog_message">Sorry, the application crashed. Send crash report to the developer by email?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string-array name="vibrate_settings">
         <item>Always on</item>
         <item>Always off</item>
